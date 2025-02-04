@@ -8,13 +8,6 @@ URLS = {
     "Terrains à vendre": "https://www.expat-dakar.com/terrains-a-vendre"
 }
 
-try:
-    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
-    st.write(f"🔍 Statut de la requête : {response.status_code}")
-    st.write("🔹 Aperçu du contenu :", response.text[:500])  # Afficher les 500 premiers caractères
-except Exception as e:
-    st.error(f"Erreur lors de la requête : {e}")
-
 def scrape_expat_dakar(url, max_pages=5):
     all_data = []
 
