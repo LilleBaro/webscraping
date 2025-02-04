@@ -5,7 +5,7 @@ from pages import scraping, analyse, dashboard, evaluation
 # Configuration de la page
 st.set_page_config(page_title="Scraping et Analyse", layout="wide")
 
-# 🔥 Supprimer la sidebar
+# Supprimer la sidebar
 st.markdown("""
     <style>
         [data-testid="stSidebar"] {display: none;}
