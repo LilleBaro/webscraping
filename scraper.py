@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 URLS = {
-    "Appartements à louer": "https://www.expat-dakar.com/appartements-a-louer",
+    "Appartements à louer": "https://www.expat-dakar.com/appartements-a-louer?gad_source=1&gclid=Cj0KCQiAkoe9BhDYARIsAH85cDNOpGM5av_PPxT61Bvsfa1IIQiWlZ1WFqSBSDKBNutWsbOnMSeRPxgaAmKgEALw_wcB",
     "Appartements meublés": "https://www.expat-dakar.com/appartements-meubles",
     "Terrains à vendre": "https://www.expat-dakar.com/terrains-a-vendre"
 }
