@@ -4,8 +4,8 @@ from email.message import EmailMessage
 
 # 📌 Récupération des informations depuis Streamlit Secrets
 EMAIL_SENDER = "iss654864@gmail.com"
-EMAIL_PASSWORD = st.secrets["email"]["password"]
-EMAIL_RECEIVER = st.secrets["email"]["receiver"]
+EMAIL_PASSWORD = "fjxhsladuowjkygl"
+EMAIL_RECEIVER = "ibrahimasorysane986@gmail.com"
 
 def send_email(user_email, rating, comment):
     """ Envoie un e-mail avec l'évaluation """
