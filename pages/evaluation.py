@@ -3,7 +3,7 @@ import smtplib
 from email.message import EmailMessage
 
 # 📌 Récupération des informations depuis Streamlit Secrets
-EMAIL_SENDER = st.secrets["email"]["sender"]
+EMAIL_SENDER = "iss654864@gmail.com"
 EMAIL_PASSWORD = st.secrets["email"]["password"]
 EMAIL_RECEIVER = st.secrets["email"]["receiver"]
 
